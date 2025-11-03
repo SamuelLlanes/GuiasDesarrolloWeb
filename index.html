@@ -3,9 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Enlaces Guias</title>
+  <!-- Fuentes de letra -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <style>
+* { font-family: "Source Sans 3", sans-serif;}
     body {
-      background-color: #F5F5F5;
+	    background: #592986;
+background: linear-gradient(356deg, rgba(89, 41, 134, 1) 13%, rgba(128, 88, 172, 1) 47%, rgba(89, 41, 134, 1) 89%);
       font-family: 'Open Sans', sans-serif;
       color: #1C1C1C;
       display: flex;
@@ -14,11 +20,22 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
+      gap: 30px;
+    }
+
+
+    article {
+	    height: fit-content;
+	    width: fit-content;
+	    padding: 35px;
+	    border-radius: 30px;
+	    -webkit-box-shadow: inset -2px 4px 30px 3px #EDDDE3; 
+box-shadow: inset -2px 4px 30px 3px #EDDDE3;
     }
 
     h1 {
-      font-family: 'Merriweather', serif;
       margin-bottom: 20px;
+      color: #eddde3;
     }
 
     .links {
@@ -29,31 +46,36 @@
 
     .links a {
       text-decoration: none;
-      color: #1C1C1C;
-      background-color: #E0E0E0;
+      color: #eddde3;
       padding: 12px 20px;
-      border-radius: 8px;
-      border: 1px solid #B0B0B0;
+      border-radius: 15px;
       transition: background-color 0.3s, color 0.3s;
       text-align: center;
       font-weight: 600;
-      width: 220px;
+      font-size: 1.4vh;
+      width: 30vh;
+      transition: .8s;
     }
 
     .links a:hover {
-      background-color: #B0B0B0;
+	    -webkit-box-shadow: inset -2px 4px 30px 3px rgba(237,221,227,0.5); 
+box-shadow: inset -2px 4px 30px 3px rgba(237,221,227,0.5);
       color: #F5F5F5;
+      transition: .8s;
     }
   </style>
 </head>
 <body>
-  <h1>Enlaces guia 1</h1>
-  <div class="links">
-    <a href="20245303_Guia1/paises.html" target="_blank">Ejercicio paises</a>
-    <a href="20245303_Guia1/ejemplo2.html" target="_blank">Ejemplo 2</a>
-    <a href="20245303_Guia1/estilos_embedidos.html" target="_blank">Estilos embedidos</a>
-    <a href="20245303_Guia1/serie.html" target="_blank">Serie</a>
-  </div>
+	<article>
+		<h1>Enlaces guia 1</h1>
+		<div class="links">
+    			<a href="20245303_Guia1/paises.html" target="_blank">Ejercicio paises</a>
+			<a href="20245303_Guia1/ejemplo2.html" target="_blank">Ejemplo 2</a>
+    			<a href="20245303_Guia1/estilos_embedidos.html" target="_blank">Estilos embedidos</a>
+			<a href="20245303_Guia1/serie.html" target="_blank">Serie</a>
+		</div>
+	</article>
+	<article>
   <h1>Enlaces guia 2</h1>
   <div class="links">
 	  <a href="20245303_Guia2/pelicula.html" target="_blank">Pelicula</a>
@@ -61,6 +83,8 @@
 	  <a href="20245303_Guia2/biografia.html" target="_blank">Biografia</a>
 
   </div>
+	</article>
+	<article>
   <h1>Enlaces guia 3</h1>
   <div class="links">
   	<a href="20245303_Guia3/oscares.html">Ejercicio 1</a>
@@ -68,6 +92,14 @@
   	<a href="20245303_Guia3/index.html">Ejercicio 3</a>
   	<a href="20245303_Guia3/analisis.html">Cartas</a>
   </div>
+	</article>
+	<article>
+  <h1>Enlaces guia 5</h1>
+  <div class="links">
+  	<a href="Guia5_20245303/index.html">Ejercicios</a>
+  </div>
+	</article>
+
 </body>
 </html>
 
